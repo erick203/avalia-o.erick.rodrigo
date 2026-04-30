@@ -31,3 +31,34 @@ Siga os passos abaixo para configurar o ambiente e visualizar o projeto na sua m
 2.  **Acesse a pasta do projeto:**
     ```bash
     cd my-app
+    ```
+
+3.  **Instale as dependências:**
+    *(Este comando baixa todas as bibliotecas necessárias que não são enviadas ao GitHub)*
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+5.  **Acesse no navegador:**
+    O projeto estará disponível em: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 📂 Estrutura Principal
+*   `src/app`: Contém as rotas e a estrutura da página principal.
+*   `public/`: Local onde estão armazenadas as imagens e ícones da imobiliária.
+*   `components/`: Componentes reutilizáveis da interface (Header, Banner, etc).
+
+---
+
+## 📝 Aprendizados
+*   **Migração Estática:** Transformação de código HTML puro para a sintaxe JSX do React.
+*   **Componentização:** Divisão da interface em blocos lógicos para facilitar a manutenção.
+*   **Gerenciamento de Pacotes:** Uso do NPM para controle de dependências do ecossistema JavaScript.
+
+---
